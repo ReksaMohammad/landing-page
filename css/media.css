@@ -1,0 +1,176 @@
+@media (min-width: 415px) {
+
+  /* ---------------Page One--------------- */
+  #p1 {
+    display: block;
+    position: relative;
+    top: 0vh;
+    visibility: hidden;
+  }
+
+  .page-one h1 {
+    margin-top: 40vh;
+    text-align: left;
+    font-size: 35px;
+  }
+
+  .page-one h2 {
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .page-one img {
+    max-width: 50%;
+    float: right;
+    margin-top: -50vh;
+    margin-bottom: 10vh;
+
+  }
+
+  .page-one .span12 {
+    margin-left: -750px;
+  }
+
+  .po-1 {
+    background-color: #4183F1;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .po-1:hover {
+    background-color: rgb(24, 78, 170);
+    color: #fff;
+  }
+
+  .po-2 {
+    margin-left: 20px;
+    border: 1px solid rgb(180, 180, 180);
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .po-2:hover {
+    background-color: rgb(231, 231, 231);
+  }
+  /* ---------------Page One End--------------- */
+
+  /* ---------------Page Two--------------- */
+  #p2 {
+    display: block;
+    position: relative;
+    top: 35vh;
+    visibility: hidden;
+  }
+
+  .page-two .bg2 {
+    visibility: visible;
+    margin-top: 10vh;
+    margin-bottom: -150vh;
+  }
+
+  .page-two h1 {
+    margin-top: 60vh;
+  }
+
+  .page-two hr {
+    width: 8%;
+  }
+
+  .page-two p {
+    width: 50%;
+  }
+  /* ---------------Page Two End--------------- */
+
+  /* ---------------Page Three--------------- */
+  #p3 {
+    display: block;
+    position: relative;
+    top: 10vh;
+    visibility: hidden;
+  }
+
+  .page-three .bg3 img {
+    width: 55%;
+    margin-top: 30vh;
+    margin-left: 20px;
+  }
+
+  .page-three .card {
+    float: right;
+    width: 30%;
+    margin-top: -70vh;
+    margin-right: 20px;
+    height: 400px;
+  }
+
+  .page-three .logo2 img {
+    display: initial;
+    margin-left: 860px;
+    margin-top: -145vh;
+    margin-bottom: -10vh;
+  }
+  .page-three .card .card-body .card-title {
+    margin-top: 50px;
+  }
+
+  .page-three .card .card-body .card-text{
+    font-size: 15px;
+  }
+
+  .page-three .card .card-body .btn {
+    z-index: 1;
+  }
+  /* ---------------Page Three End--------------- */
+
+  /* ---------------Page 4--------------- */
+  #bg-p4 {
+    background-image: url("../img/bg4.png");
+    background-size: cover;
+  }
+
+  .page-four .isi h1 {
+    margin-top: -75vh;
+    margin-left: 10%;
+    text-align: left;
+  }
+
+  .page-four .isi p {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .page-four .isi .card {
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  .page-four .isi .card button {
+    width: 25%;
+  }
+
+  .page-four .isi .socmed2 {
+    float: right;
+    margin-top: -15vh;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+
+  .page-four .isi .socmed2 p {
+    color: #000;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
+
+  .page-four .isi footer {
+    color: #4183F1;
+    margin-top: 15vh;
+    font-size: 15px;
+    float: none;
+    text-align: center;
+  }
+  /* ---------------Page 4 End--------------- */
+}
